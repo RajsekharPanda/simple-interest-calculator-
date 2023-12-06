@@ -52,16 +52,16 @@ export const Home = () => {
                     </div>
                     <div className='opacity-[90%]'>
                         <button 
-                        className='text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-blue-600 hover:bg-blue-700  mt-10'
+                        className='text-white font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-blue-600 hover:bg-blue-700  mt-6'
                         >Calculate</button>
-                        <button
-                        onClick={clickHandler} 
-                        class=" font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white  dark:hover:bg-gray-700 ">
-                        Reset
-                        </button>
                     </div>
                 </div>
             </form>
+                        <button
+                        onClick={clickHandler} 
+                        class=" font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-gray-800 dark:text-white  dark:hover:bg-gray-700 ml-56 mb-8">
+                        Reset
+                        </button>
         </div>
 
     </div>
